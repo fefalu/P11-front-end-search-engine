@@ -1,0 +1,15 @@
+.header_container_logo {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+}/*# sourceMappingURL=main.css.map */

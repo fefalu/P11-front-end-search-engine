@@ -1,0 +1,14 @@
+// import contents from 
+@import './config';
+@import './menu';
+@import './reset';
+@import './variables';
+
+// 
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+// body container
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+}

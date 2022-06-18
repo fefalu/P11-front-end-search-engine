@@ -11,7 +11,7 @@ const recipes = [
             },
             {
                 "ingredient" : "Jus de citron",
-                "quantity" : 2
+                "quantity" : 2,
             },
             {
                 "ingredient" : "Crème de coco",
@@ -44,19 +44,19 @@ const recipes = [
             },
             {
                 "ingredient" : "Concombre",
-                "quantity" : 1
+                "quantity" : 1,
             },
             {
                 "ingredient" : "Tomate",
-                "quantity" : 2
+                "quantity" : 2,
             },
             {
                 "ingredient" : "Carotte",
-                "quantite" : 1
+                "quantite" : 1,
             },
             {
                 "ingredient" : "Citron Vert",
-                "quantity" : 5
+                "quantity" : 5,
             },
             {
                 "ingredient" : "Lait de Coco",
@@ -75,7 +75,7 @@ const recipes = [
         "ingredients": [
             {
                 "ingredient": "Poulet",
-                "quantity" : 1          
+                "quantity" : 1,          
             },
             {
                 "ingredient": "Lait de coco",
@@ -89,16 +89,16 @@ const recipes = [
             },
             {
                 "ingredient": "Oignon",
-                "quantity" : 1
+                "quantity" : 1,
             },
             {
                 "ingredient": "Poivron rouge",
-                "quantity": 1
+                "quantity": 1,
             },
             {
-                "ingredient": "Huile d'olive"
+                "ingredient": "Huile d'olive",
                 "quantity": 1,
-               "unit": "cuillères à soupe"
+               "unit": "cuillères à soupe",
             }
         ],
         "time": 80,

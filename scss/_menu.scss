@@ -3,3 +3,24 @@
     display: flex;
     justify-content: center;
 }
+
+// search bar container
+.search-bar {
+    border: 2px solid salmon;
+    display: flex;
+    // search bar input
+    &__input {
+        flex-grow: 1;
+        background: transparent;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+    // search bar submit
+    &__submit {
+        font-size: 1.2rem;
+        cursor: pointer;
+        background: transparent;
+    }
+}

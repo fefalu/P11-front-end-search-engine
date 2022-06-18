@@ -4,18 +4,35 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./dist/css/main.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/905c9bb679.js" crossorigin="anonymous"></script>
         <title>Les petits plats</title>
     </head>
 
     <!-- Les petits plats content -->
     <body>
+        <!-- header content -->
         <header class="header_container">
+            <!-- header container logo -->
             <div class="header_container_logo">
                 <img src="assets/images/logo.svg" alt="logo image les petits plats">
             </div>
-
         </header>
-    
+
+        <!-- main content-->
+        <main class="main_container">
+            <!-- main search bar container -->
+            <div class="search-bar">
+                <!-- input search bar -->
+                <input type="text" class="search-bar__input" placeholder="Rechercher une recette" aria-label="search"/>
+
+                <!-- button search bar submit search -->
+                <button class="search-bar__submit">
+                    <i class="fas fa-search" aria-label="submit search"></i>
+                </button>
+            </div>
+
+        </main>
     </body>
 </html>

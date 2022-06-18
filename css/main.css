@@ -3,6 +3,23 @@
   justify-content: center;
 }
 
+.search-bar {
+  border: 2px solid salmon;
+  display: flex;
+}
+.search-bar__input {
+  flex-grow: 1;
+  background: transparent;
+}
+.search-bar__input:focus {
+  outline: 0;
+}
+.search-bar__submit {
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: transparent;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +29,5 @@
 body {
   padding-left: 100px;
   padding-right: 100px;
+  padding-top: 3rem;
 }/*# sourceMappingURL=main.css.map */

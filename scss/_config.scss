@@ -1,0 +1,9 @@
+@mixin SearchDim ($display: flex, $justify-content: space-around, $align-items: center, $font-size: 1.1rem, $width: 170px, $height: 69px, $border-radius: 5px) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    font-size: $font-size; 
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+}

@@ -5,20 +5,19 @@
     margin-bottom: 1rem;
 }
 
-// search bar container
+// main search bar container
 .search-bar {
     display: flex;
     // border: 2px solid salmon;
-    display: flex;
     height: 69px;
     border-radius: 5px;
     background-color: $primaryColor;
-    // search bar input
+    // search bar input placeholder
     &__input {
         flex-grow: 1;
         background: transparent;
         font-family: 'Lato', sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding-left: 1.5rem;
         border: 0;
         // padding-top: 1rem;
@@ -35,5 +34,82 @@
         background: transparent;
         padding-right: 1rem;
         border: 0;
+    }
+}
+
+// main section search bar items container
+.search-barItem {
+    display: flex;
+    border: 1px solid red ;
+    margin-top: 1.5rem;
+}
+
+// section search bar items ingredients container
+.search-barItem-Ing {
+    height: 69px;
+    // border: 2px solid blue;
+    // input placeholder
+    &__input {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+    // label name
+    &__box {
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        @include SearchDim;
+        color: $secondaryTextColor;
+        background-color: $tertiaryColor;
+    }
+    // icon chevron
+    i {
+        cursor: pointer;
+    }
+}
+
+// section search bar items Devices container
+.search-barItem-Dev {
+    height: 69px;
+    // border: 2px solid green;
+    &__input {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+    // label name
+    &__box {
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        @include SearchDim;
+        color: $secondaryTextColor;
+        background-color: $quaternaryColor;
+    }
+    // icon chevron
+    i {
+        cursor: pointer;
+    }
+}
+
+// section search bar utensiles containerr
+.search-barItem-Uten {
+    height: 69px;
+    // border: 2px solid salmon;
+    &__input {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+    // label name
+    &__box {
+        font-family: 'Lato', sans-serif;
+        font-weight: bolder;
+        @include SearchDim;
+        color: $secondaryTextColor;
+        background-color: $quinaryColor;
+    }
+    // icon chevron
+    i {
+        cursor: pointer;
     }
 }

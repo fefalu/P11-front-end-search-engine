@@ -6,7 +6,7 @@
 }
 
 // main search bar container
-.search-bar {
+.search-bar-nav {
     display: flex;
     // border: 2px solid salmon;
     height: 69px;
@@ -27,6 +27,13 @@
             outline: 0;
         }
     }
+    
+    // one ingredients list input button
+    i {
+        padding-right: 1.5rem;
+        cursor: pointer;
+    }
+
     // search bar submit
     &__submit {
         font-size: 1.8rem;
@@ -37,79 +44,203 @@
     }
 }
 
-// main section search bar items container
-.search-barItem {
-    display: flex;
-    border: 1px solid red ;
-    margin-top: 1.5rem;
-}
+// ========================================================================================================================================
+
 
 // section search bar items ingredients container
-.search-barItem-Ing {
+.one-ing {
     height: 69px;
-    // border: 2px solid blue;
-    // input placeholder
-    &__input {
-        font-family: 'Lato', sans-serif;
-        font-size: 1.1rem;
-        padding-left: 1rem;
-    }
-    // label name
+    list-style-type: none;
     &__box {
         font-family: 'Lato', sans-serif;
-        font-weight: bolder;
+        font-weight: bold;
         @include SearchDim;
         color: $secondaryTextColor;
         background-color: $tertiaryColor;
     }
+
     // icon chevron
     i {
         cursor: pointer;
     }
 }
 
-// section search bar items Devices container
-.search-barItem-Dev {
-    height: 69px;
-    // border: 2px solid green;
+// one ingredients list container
+.one-ing-list {
+    position: absolute;
+    @include topListDim;
+    color: $secondaryTextColor;
+    background-color: $tertiaryColor;
+    // border: 1px solid white;
+
+
+    // one ingredients list input
     &__input {
-        font-family: 'Lato', sans-serif;
-        font-size: 1.1rem;
-        padding-left: 1rem;
+        @include topSearchDim;
+        background-color: $tertiaryColor;
+        color: $secondaryTextColor;
+        &:focus {
+            outline: 0;
+        }
     }
-    // label name
+
+    // one ingredients list inputUpButton
+    &__InputUpButton {
+        display: flex;
+        align-items: baseline;
+    }
+
+    // one utensiles list input button
+    i {
+        padding-right: 1.5rem;
+        cursor: pointer;
+    }
+
+    // one ingredients list box
+    &__box {
+        display: flex;
+        // // position: relative;
+        flex-wrap: wrap;
+        list-style-type: none;
+        // font-weight: bold;
+    }
+}
+// one-ingredients -item
+.one-ing-item{
+    width: 13.8rem;
+    padding: 0.4rem 1rem;
+}
+
+// ================================================================================================================
+
+// section search bar items devices container
+.one-dev {
+    height: 69px;
+    list-style-type: none;
     &__box {
         font-family: 'Lato', sans-serif;
-        font-weight: bolder;
+        font-weight: bold;
         @include SearchDim;
         color: $secondaryTextColor;
         background-color: $quaternaryColor;
     }
+
     // icon chevron
     i {
         cursor: pointer;
     }
 }
 
-// section search bar utensiles containerr
-.search-barItem-Uten {
-    height: 69px;
-    // border: 2px solid salmon;
+// one devices list container
+.one-dev-list {
+    position: absolute;
+    @include topListDim;
+    color: $secondaryTextColor;
+    background-color: $quaternaryColor;
+    // border: 1px solid white;
+
+
+    // one devices list containerinput
     &__input {
-        font-family: 'Lato', sans-serif;
-        font-size: 1.1rem;
-        padding-left: 1rem;
+        @include topSearchDim;
+        background-color: $quaternaryColor;
+        color: $secondaryTextColor;
+        &:focus {
+            outline: 0;
+        }
     }
-    // label name
+
+    // one devices list inputUpButton
+    &__InputUpButton {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    // one devices list input button
+    i {
+        padding-right: 1.5rem;
+        cursor: pointer;
+    }
+
+    // one devices- list box
+    &__box {
+        display: flex;
+        // // position: relative;
+        flex-wrap: wrap;
+        list-style-type: none;
+        // font-weight: bold;
+    }
+}
+// one-devices item
+.one-dev-item{
+    width: 13.8rem;
+    padding: 0.4rem 1rem;
+}
+
+
+// ================================================================================================================
+
+// section search bar items utensiles container
+.one-uten {
+    height: 69px;
+    list-style-type: none;
     &__box {
         font-family: 'Lato', sans-serif;
-        font-weight: bolder;
+        font-weight: bold;
         @include SearchDim;
         color: $secondaryTextColor;
         background-color: $quinaryColor;
     }
+
     // icon chevron
     i {
         cursor: pointer;
     }
 }
+
+// one utensiles list container
+.one-uten-list {
+    position: absolute;
+    @include topListDim;
+    color: $secondaryTextColor;
+    background-color: $quinaryColor;
+    // border: 1px solid white;
+
+
+    // one utensiles list containerinput
+    &__input {
+        @include topSearchDim;
+        background-color: $quinaryColor;
+        color: $secondaryTextColor;
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    // one utensiles list inputUpButton
+    &__InputUpButton {
+        display: flex;
+        align-items: baseline;
+    }
+
+    // one utensiles list input button
+    i {
+        padding-right: 1.5rem;
+        cursor: pointer;
+    }
+
+    // one utensiles list box
+    &__box {
+        display: flex;
+        // // position: relative;
+        flex-wrap: wrap;
+        list-style-type: none;
+        // font-weight: bold;
+    }
+}
+// one utensiles item
+.one-uten-item{
+    width: 13.8rem;
+    padding: 0.4rem 1rem;
+}
+// ================================================================================================================

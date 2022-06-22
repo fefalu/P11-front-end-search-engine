@@ -24,223 +24,238 @@
                 <img src="assets/images/logo.svg" alt="logo image les petits plats">
             </div>
         </header>
-
+      
         <!-- main content-->
         <main class="main_container">
             <!-- main search bar container -->
-            <div class="search-bar">
+            <nav class="search-bar-nav">
                 <!-- input search bar -->
-                <input type="text" class="search-bar__input" placeholder="Rechercher une recette" aria-label="search"/>
+                <input type="text" class="search-bar-nav__input" placeholder="Rechercher une recette" aria-label="search"/>
 
                 <!-- button search bar submit search -->
-                <button class="search-bar__submit">
+                <button class="search-bar-nav__submit">
                     <i class="fas fa-search" aria-label="submit search"></i>
                 </button>
-            </div>
-
+            </nav>
+<!-- ================================================================================================================== -->
             <!-- main search bar items container -->
-            <section class="search-barItem">
+            <section class="section-one-container">
 
                 <!-- search bar items ingredients container -->
-                <div class="search-barItem-Ing">
+                <div class="one-ing">
                     <!-- input placeholder for search -->
-                    <div class="search-barItem-Ing__box">
-                        <label class="search-barItem-Ing__label">Ingrédients</label>
+                    <div class="one-ing__box">
+                        <label class="one-ing__label">Ingrédients</label>
                         <i class="fa-solid fa-chevron-down"></i>
                     </div>
 
-                    <div class="search-barItem-Ing-List">
-                        <input type="text" class="search-barItem-Ing__input" placeholder="Rechercher un ingrédient" aria-label="search"/>
-                        <ul class="Ing-List">
-                            <li class="Ing-List-Item">Lait de coco</li>
-                            <li class="Ing-List-Item">Jus de citron</li>
-                            <li class="Ing-List-Item">Crème de coco</li>
-                            <li class="Ing-List-Item">Sucre</li>
-                            <li class="Ing-List-Item">Glaçons</li>
-                            <li class="Ing-List-Item">Thon Rouge (ou blanc)</li>
-                            <li class="Ing-List-Item">Concombre</li>
-                            <li class="Ing-List-Item">Tomate</li>
-                            <li class="Ing-List-Item">Carotte</li>
-                            <li class="Ing-List-Item">Glaçons</li>
-                            <li class="Ing-List-Item">Tomate</li>
-                            <li class="Ing-List-Item">Citron Vert</li>
-                            <li class="Ing-List-Item">Poulet</li>
-                            <li class="Ing-List-Item">Coulis de tomate</li>
-                            <li class="Ing-List-Item">Oignon</li>
-                            <li class="Ing-List-Item">Poivron rouge</li>
-                            <li class="Ing-List-Item">Huile d'olive</li>
-                            <li class="Ing-List-Item">Riz blanc</li>
-                            <li class="Ing-List-Item">Thon en miettes</li>
-                            <li class="Ing-List-Item">Oeuf dur</li>
-                            <li class="Ing-List-Item">Coulls de tomate</li>
-                            <li class="Ing-List-Item">Huile d'olive</li>
-                            <li class="Ing-List-Item">Oeuf dur</li>
-                            <li class="Ing-List-Item">Maïs</li>
-                            <li class="Ing-List-Item">Vinaigrette</li>
-                            <li class="Ing-List-Item">Pâte feuilletée</li>
-                            <li class="Ing-List-Item">Crème fraiche</li>
-                            <li class="Ing-List-Item">Gruyère râpé</li>
-                            <li class="Ing-List-Item">Moutarde de Dijon</li>
-                            <li class="Ing-List-Item">Pâte brisée</li>
-                            <li class="Ing-List-Item">Oeuf</li>
-                            <li class="Ing-List-Item">Sucre en Poudre</li>
-                            <li class="Ing-List-Item">Sucre vanillé</li>
-                            <li class="Ing-List-Item">Pâte sablée</li>
-                            <li class="Ing-List-Item">Chocolat au lait</li>
-                            <li class="Ing-List-Item">Crème liquide</li>
-                            <li class="Ing-List-Item">Beurre</li>
-                            <li class="Ing-List-Item">Fraise</li>
-                            <li class="Ing-List-Item">Noix</li>
-                            <li class="Ing-List-Item">Chocolat noir</li>
-                            <li class="Ing-List-Item">Farine</li>
-                            <li class="Ing-List-Item">Olives</li>
-                            <li class="Ing-List-Item">Fromage de chèvre</li>
-                            <li class="Ing-List-Item">Vinaigre Balsamic</li>
-                            <li class="Ing-List-Item">Basilic</li>
-                            <li class="Ing-List-Item">Roblochon</li>
-                            <li class="Ing-List-Item">Pommes de terre</li>
-                            <li class="Ing-List-Item">Jambon fumé</li>
-                            <li class="Ing-List-Item">Vin blanc sec</li>
-                            <li class="Ing-List-Item">Tomates cerises</li>
-                            <li class="Ing-List-Item">Mozzarella</li>
-                            <li class="Ing-List-Item">Jambon de parme</li>
-                            <li class="Ing-List-Item">Pommes</li>
-                            <li class="Ing-List-Item">Salade Verte</li>
-                            <li class="Ing-List-Item">Vinaigrette</li>
-                            <li class="Ing-List-Item">Rhubarbe</li>
-                            <li class="Ing-List-Item">Eau</li>
-                            <li class="Ing-List-Item">Mâche</li>
-                            <li class="Ing-List-Item">Échalote</li>
-                            <li class="Ing-List-Item">Vinaigre de cidre</li>
-                            <li class="Ing-List-Item">Saucisse bretonne ou de toulouse</li>
-                            <li class="Ing-List-Item">Farine de blé noir</li>
-                            <li class="Ing-List-Item">Fromage à raclette</li>
-                            <li class="Ing-List-Item">Beurre salé</li>
-                            <li class="Ing-List-Item">Banane</li>
-                            <li class="Ing-List-Item">Pennes</li>
-                            <li class="Ing-List-Item">Fraise</li>
-                            <li class="Ing-List-Item">Pastèque</li>
-                            <li class="Ing-List-Item">Menthe</li>
-                            <li class="Ing-List-Item">Ananas</li>
-                            <li class="Ing-List-Item">Glace à la vanille</li>
-                            <li class="Ing-List-Item">Lait</li>
-                            <li class="Ing-List-Item">Kiwi</li>
-                            <li class="Ing-List-Item">Citron</li>
-                            <li class="Ing-List-Item">Sucre glace</li>
-                            <li class="Ing-List-Item">Tagliatelles</li>
-                            <li class="Ing-List-Item">Lardons</li>
-                            <li class="Ing-List-Item">Parmesan</li>
-                            <li class="Ing-List-Item">Spaghettis</li>
-                            <li class="Ing-List-Item">Coulis de tomate</li>
-                            <li class="Ing-List-Item">Viande hachée 1% de matière grasse</li>
-                            <li class="Ing-List-Item">Vin rouge</li>
-                            <li class="Ing-List-Item">Macaronis</li>
-                            <li class="Ing-List-Item">Mayonnaise</li>
-                            <li class="Ing-List-Item">Chocolat noir en pepites</li>
-                            <li class="Ing-List-Item">Ail</li>
-                            <li class="Ing-List-Item">Oseille</li>
-                            <li class="Ing-List-Item">Vermicelles</li>
-                            <li class="Ing-List-Item">Poireau</li>
-                            <li class="Ing-List-Item">Pois chiches</li>
-                            <li class="Ing-List-Item">Pois Cassé</li>
-                            <li class="Ing-List-Item">Haricots verts</li>
-                            <li class="Ing-List-Item">Petits poids</li>
-                            <li class="Ing-List-Item">Pain de mie</li>
-                            <li class="Ing-List-Item">Blanc de dinde</li>
-                            <li class="Ing-List-Item">Emmental</li>
-                            <li class="Ing-List-Item">Gruyère</li>
-                            <li class="Ing-List-Item">Saumon Fumé</li>
-                            <li class="Ing-List-Item">Feuilles de laitue</li>
-                            <li class="Ing-List-Item">Fromage blanc</li>
-                            <li class="Ing-List-Item">Patate douce</li>
-                            <li class="Ing-List-Item">Orange</li>
-                            <li class="Ing-List-Item">Cumin</li>
-                            <li class="Ing-List-Item">Noix de muscade</li>
-                            <li class="Ing-List-Item">Courgette</li>
-                            <li class="Ing-List-Item">Lasagnes</li>
-                            <li class="Ing-List-Item">Maïzena</li>
-                            <li class="Ing-List-Item">Coulis de tomates</li>
-                            <li class="Ing-List-Item">Pain</li>
-                            <li class="Ing-List-Item">Sucre roux</li>
-                            <li class="Ing-List-Item">Chocolat</li>
-                            <li class="Ing-List-Item">Poires au jus</li>
-                            <li class="Ing-List-Item">Beurre fondu</li>
-                            <li class="Ing-List-Item">Pruneaux</li>
-                            <li class="Ing-List-Item">Mascarpone</li>
-                            <li class="Ing-List-Item">Pâte à pizza</li>
-                            <li class="Ing-List-Item">Champignons de paris</li>
-                            <li class="Ing-List-Item">Mangue</li>
-                            <li class="Ing-List-Item">Miel</li>
-                            <li class="Ing-List-Item">Poudre d'amendes</li>
+                    <!-- section search barItem Ing-List -->
+                    <div class="one-ing-list">
+                        <div class="one-ing-list__InputUpButton">
+                            <input type="text" class="one-ing-list__input" placeholder="Rechercher un ingrédient" aria-label="search"/>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </div>
+
+                        <!-- Ing List container -->
+                        <ul class="one-ing-list__box">
+                            <!-- ing list Item -->
+                            <li class="one-ing-item">Lait de coco</li>
+                            <li class="one-ing-item">Jus de citron</li>
+                            <li class="one-ing-item">Crème de coco</li>
+                            <li class="one-ing-item">Sucre</li>
+                            <li class="one-ing-item">Glaçons</li>
+                            <li class="one-ing-item">Thon Rouge (ou blanc)</li>
+                            <li class="one-ing-item">Concombre</li>
+                            <li class="one-ing-item">Tomate</li>
+                            <li class="one-ing-item">Carotte</li>
+                            <li class="one-ing-item">Glaçons</li>
+                            <li class="one-ing-item">Tomate</li>
+                            <li class="one-ing-item">Citron Vert</li>
+                            <li class="one-ing-item">Poulet</li>
+                            <li class="one-ing-item">Coulis de tomate</li>
+                            <li class="one-ing-item">Oignon</li>
+                            <li class="one-ing-item">Poivron rouge</li>
+                            <li class="one-ing-item">Huile d'olive</li>
+                            <li class="one-ing-item">Riz blanc</li>
+                            <li class="one-ing-item">Thon en miettes</li>
+                            <li class="one-ing-item">Oeuf dur</li>
+                            <li class="one-ing-item">Coulls de tomate</li>
+                            <li class="one-ing-item">Huile d'olive</li>
+                            <li class="one-ing-item">Oeuf dur</li>
+                            <li class="one-ing-item">Maïs</li>
+                            <li class="one-ing-item">Vinaigrette</li>
+                            <li class="one-ing-item">Pâte feuilletée</li>
+                            <li class="one-ing-item">Crème fraiche</li>
+                            <li class="one-ing-item">Gruyère râpé</li>
+                            <li class="one-ing-item">Moutarde de Dijon</li>
+                            <li class="one-ing-item">Pâte brisée</li>
+                            <li class="one-ing-item">Oeuf</li>
+                            <li class="one-ing-item">Sucre en Poudre</li>
+                            <li class="one-ing-item">Sucre vanillé</li>
+                            <li class="one-ing-item">Pâte sablée</li>
+                            <li class="one-ing-item">Chocolat au lait</li>
+                            <li class="one-ing-item">Crème liquide</li>
+                            <li class="one-ing-item">Beurre</li>
+                            <li class="one-ing-item">Fraise</li>
+                            <li class="one-ing-item">Noix</li>
+                            <li class="one-ing-item">Chocolat noir</li>
+                            <li class="one-ing-item">Farine</li>
+                            <li class="one-ing-item">Olives</li>
+                            <li class="one-ing-item">Fromage de chèvre</li>
+                            <li class="one-ing-item">Vinaigre Balsamic</li>
+                            <li class="one-ing-item">Basilic</li>
+                            <li class="one-ing-item">Roblochon</li>
+                            <li class="one-ing-item">Pommes de terre</li>
+                            <li class="one-ing-item">Jambon fumé</li>
+                            <li class="one-ing-item">Vin blanc sec</li>
+                            <li class="one-ing-item">Tomates cerises</li>
+                            <li class="one-ing-item">Mozzarella</li>
+                            <li class="one-ing-item">Jambon de parme</li>
+                            <li class="one-ing-item">Pommes</li>
+                            <li class="one-ing-item">Salade Verte</li>
+                            <li class="one-ing-item">Vinaigrette</li>
+                            <li class="one-ing-item">Rhubarbe</li>
+                            <li class="one-ing-item">Eau</li>
+                            <li class="one-ing-item">Mâche</li>
+                            <li class="one-ing-item">Échalote</li>
+                            <li class="one-ing-item">Vinaigre de cidre</li>
+                            <li class="one-ing-item">Saucisse bretonne ou de toulouse</li>
+                            <li class="one-ing-item">Farine de blé noir</li>
+                            <li class="one-ing-item">Fromage à raclette</li>
+                            <li class="one-ing-item">Beurre salé</li>
+                            <li class="one-ing-item">Banane</li>
+                            <li class="one-ing-item">Pennes</li>
+                            <li class="one-ing-item">Fraise</li>
+                            <li class="one-ing-item">Pastèque</li>
+                            <li class="one-ing-item">Menthe</li>
+                            <li class="one-ing-item">Ananas</li>
+                            <li class="one-ing-item">Glace à la vanille</li>
+                            <li class="one-ing-item">Lait</li>
+                            <li class="one-ing-item">Kiwi</li>
+                            <li class="one-ing-item">Citron</li>
+                            <li class="one-ing-item">Sucre glace</li>
+                            <li class="one-ing-item">Tagliatelles</li>
+                            <li class="one-ing-item">Lardons</li>
+                            <li class="one-ing-item">Parmesan</li>
+                            <li class="one-ing-item">Spaghettis</li>
+                            <li class="one-ing-item">Coulis de tomate</li>
+                            <li class="one-ing-item">Viande hachée 1% de matière grasse</li>
+                            <li class="one-ing-item">Vin rouge</li>
+                            <li class="one-ing-item">Macaronis</li>
+                            <li class="one-ing-item">Mayonnaise</li>
+                            <li class="one-ing-item">Chocolat noir en pepites</li>
+                            <li class="one-ing-item">Ail</li>
+                            <li class="one-ing-item">Oseille</li>
+                            <li class="one-ing-item">Vermicelles</li>
+                            <li class="one-ing-item">Poireau</li>
+                            <li class="one-ing-item">Pois chiches</li>
+                            <li class="one-ing-item">Pois Cassé</li>
+                            <li class="one-ing-item">Haricots verts</li>
+                            <li class="one-ing-item">Petits poids</li>
+                            <li class="one-ing-item">Pain de mie</li>
+                            <li class="one-ing-item">Blanc de dinde</li>
+                            <li class="one-ing-item">Emmental</li>
+                            <li class="one-ing-item">Gruyère</li>
+                            <li class="one-ing-item">Saumon Fumé</li>
+                            <li class="one-ing-item">Feuilles de laitue</li>
+                            <li class="one-ing-item">Fromage blanc</li>
+                            <li class="one-ing-item">Patate douce</li>
+                            <li class="one-ing-item">Orange</li>
+                            <li class="one-ing-item">Cumin</li>
+                            <li class="one-ing-item">Noix de muscade</li>
+                            <li class="one-ing-item">Courgette</li>
+                            <li class="one-ing-item">Lasagnes</li>
+                            <li class="one-ing-item">Maïzena</li>
+                            <li class="one-ing-item">Coulis de tomates</li>
+                            <li class="one-ing-item">Pain</li>
+                            <li class="one-ing-item">Sucre roux</li>
+                            <li class="one-ing-item">Chocolat</li>
+                            <li class="one-ing-item">Poires au jus</li>
+                            <li class="one-ing-item">Beurre fondu</li>
+                            <li class="one-ing-item">Pruneaux</li>
+                            <li class="one-ing-item">Mascarpone</li>
+                            <li class="one-ing-item">Pâte à pizza</li>
+                            <li class="one-ing-item">Champignons de paris</li>
+                            <li class="one-ing-item">Mangue</li>
+                            <li class="one-ing-item">Miel</li>
+                            <li class="one-ing-item">Poudre d'amendes</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- main search bar items devices container -->
-                <div class="search-barItem-Dev">
+                <div class="one-dev">
                     <!-- input placeholder for search -->
-                    <div class="search-barItem-Dev__box">
-                        <label class="search-barItem-Dev__label">Appareils</label>
+                    <div class="one-dev__box">
+                        <label class="one-dev__label">Appareils</label>
                         <i class="fa-solid fa-chevron-down"></i>
                     </div>
                     
-                    <div class="search-barItem-Dev-List">
-                        <input type="text" class="search-barItem-Dev__input" placeholder="Rechercher un appareil" aria-label="search"/>
-                        <ul class="Dev-List">
-                            <li class="Dev-List-Item">Blender</li>
-                            <li class="Dev-List-Item">Saladier</li>
-                            <li class="Dev-List-Item">Cocotte</li>
-                            <li class="Dev-List-Item">Cuiseur de riz</li>
-                            <li class="Dev-List-Item">Four</li>
-                            <li class="Dev-List-Item">Casserole</li>
-                            <li class="Dev-List-Item">Poële à crêpe</li>
-                            <li class="Dev-List-Item">Sauteuse</li>
-                            <li class="Dev-List-Item">Mixer</li>
-                            <li class="Dev-List-Item">Poële</li>
-                            <li class="Dev-List-Item">Moule à charlotte</li>
+                    <div class="one-dev-list">
+                        <div class="one-dev-list__InputUpButton">
+                            <input type="text" class="one-dev-list__input" placeholder="Rechercher un appareil" aria-label="search"/>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </div>
+               
+                        <ul class="one-dev-list__box">
+                            <li class="one-dev-item">Blender</li>
+                            <li class="one-dev-item">Saladier</li>
+                            <li class="one-dev-item">Cocotte</li>
+                            <li class="one-dev-item">Cuiseur de riz</li>
+                            <li class="one-dev-item">Four</li>
+                            <li class="one-dev-item">Casserole</li>
+                            <li class="one-dev-item">Poële à crêpe</li>
+                            <li class="one-dev-item">Sauteuse</li>
+                            <li class="one-dev-item">Mixer</li>
+                            <li class="one-dev-item">Poële</li>
+                            <li class="one-dev-item">Moule à charlotte</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- main search bar utensiles container -->
-                <div class="search-barItem-Uten">
+                <div class="one-uten">
                     <!-- input placeholder for search -->
-                    <div class="search-barItem-Uten__box">
-                        <label class="search-barItem-Uten__label">Ustensiles</label>
+                    <div class="one-uten__box">
+                        <label class="one-uten__label">Ustensiles</label>
                         <i class="fa-solid fa-chevron-down"></i>
                     </div>
                     
-                    <div class="search-barItem-Uten-List">
-                        <input type="text" class="search-barItem-Uten__input" placeholder="Rechercher un ustensile" aria-label="search"/>
-                        <ul class="Uten-List">
-                            <li class="Uten-List-Item">Cuillère à Soupe</li>
-                            <li class="Uten-List-Item">Verres</li>
-                            <li class="Uten-List-Item">Presse citron</li>
-                            <li class="Uten-List-Item">Couteau</li>
-                            <li class="Uten-List-Item">Saladier</li>
-                            <li class="Uten-List-Item">Passoire</li>
-                            <li class="Uten-List-Item">Moule à tarte</li>
-                            <li class="Uten-List-Item">Râpe à fromage</li>
-                            <li class="Uten-List-Item">Saladier</li>
-                            <li class="Uten-List-Item">Fourchette</li>
-                            <li class="Uten-List-Item">Moule à tartelettes</li>
-                            <li class="Uten-List-Item">Casserolle</li>
-                            <li class="Uten-List-Item">Moule à gateaux</li>
-                            <li class="Uten-List-Item">Cuillère en bois</li>
-                            <li class="Uten-List-Item">Plat à gratin</li>
-                            <li class="Uten-List-Item">Économe</li>
-                            <li class="Uten-List-Item">Cuillère à melon</li>
-                            <li class="Uten-List-Item">Poelle à frire</li>
-                            <li class="Uten-List-Item">Louche</li>
-                            <li class="Uten-List-Item">Râpe à fromage</li>
-                            <li class="Uten-List-Item">Verres</li>
-                            <li class="Uten-List-Item">Presse citron</li>
-                            <li class="Uten-List-Item">Louche</li>
-                            <li class="Uten-List-Item">Rouleau à patisserie</li>
-                            <li class="Uten-List-Item">Plaque de cuisson</li>
-                            <li class="Uten-List-Item">Cocotte minute</li>
-                            <li class="Uten-List-Item">Bol</li>
-                            <li class="Uten-List-Item">Spatule</li>
+                    <div class="one-uten-list">
+                        <div class="one-uten-list__InputUpButton">
+                            <input type="text" class="one-uten-list__input" placeholder="Rechercher un ustensile" aria-label="search"/>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </div>
+                     
+                        <ul class="one-uten-list__box">
+                            <li class="one-uten-item">Cuillère à Soupe</li>
+                            <li class="one-uten-item">Verres</li>
+                            <li class="one-uten-item">Presse citron</li>
+                            <li class="one-uten-item">Couteau</li>
+                            <li class="one-uten-item">Saladier</li>
+                            <li class="one-uten-item">Passoire</li>
+                            <li class="one-uten-item">Moule à tarte</li>
+                            <li class="one-uten-item">Râpe à fromage</li>
+                            <li class="one-uten-item">Saladier</li>
+                            <li class="one-uten-item">Fourchette</li>
+                            <li class="one-uten-item">Moule à tartelettes</li>
+                            <li class="one-uten-item">Casserolle</li>
+                            <li class="one-uten-item">Moule à gateaux</li>
+                            <li class="one-uten-item">Cuillère en bois</li>
+                            <li class="one-uten-item">Plat à gratin</li>
+                            <li class="one-uten-item">Économe</li>
+                            <li class="one-uten-item">Cuillère à melon</li>
+                            <li class="one-uten-item">Poelle à frire</li>
+                            <li class="one-uten-item">Louche</li>
+                            <li class="one-uten-item">Râpe à fromage</li>
+                            <li class="one-uten-item">Verres</li>
+                            <li class="one-uten-item">Presse citron</li>
+                            <li class="one-uten-item">Louche</li>
+                            <li class="one-uten-item">Rouleau à patisserie</li>
+                            <li class="one-uten-item">Plaque de cuisson</li>
+                            <li class="one-uten-item">Cocotte minute</li>
+                            <li class="one-uten-item">Bol</li>
+                            <li class="one-uten-item">Spatule</li>
                         </ul>
                     </div>
                 </div>

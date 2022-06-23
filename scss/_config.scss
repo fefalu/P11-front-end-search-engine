@@ -27,3 +27,14 @@
     height: $height;
     border: $border;
 }
+
+// padding left and right dimensions
+@mixin padDim ($padding-left: 1rem, $padding-right: 1rem) {
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+}
+
+@mixin fontProp ($font-size: 12px, $font-weight: bolder) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+}

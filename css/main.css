@@ -225,6 +225,63 @@
   padding: 0.4rem 1rem;
 }
 
+.art-cont img {
+  height: 178px;
+  width: 380px;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.art-cont {
+  width: 380px;
+  height: 364px;
+  border-radius: 5px;
+}
+.art-cont__box {
+  background-color: #E7E7E7;
+  height: 11.3rem;
+  margin-top: -4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.art-cont__title-clock {
+  display: flex;
+  font-family: Lato, sans-serif;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+.art-cont i {
+  padding-top: 3px;
+}
+.art-cont__clock-time {
+  display: flex;
+  padding-right: 1rem;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.art-cont .art-cont__serv {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.art-cont .art-cont__serv--ing {
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+}
+.art-cont .art-cont__serv--desc {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -243,4 +300,10 @@ body {
   margin-top: 1.5rem;
   -moz-column-gap: 1.2rem;
        column-gap: 1.2rem;
+  visibility: hidden;
+}
+
+#section-second-container {
+  display: flex;
+  position: relative;
 }/*# sourceMappingURL=main.css.map */

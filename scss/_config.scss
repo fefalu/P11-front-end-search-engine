@@ -38,3 +38,25 @@
     font-size: $font-size;
     font-weight: $font-weight;
 }
+
+// responsive positioning
+@mixin media-sl { 
+    @media screen and (min-width: 425px) {
+        @content;
+    }
+}
+@mixin media-md { 
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+@mixin media-lg { 
+    @media screen and (min-width: 1420px) {
+        @content;
+    }
+}
+@mixin media-xl { 
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}

@@ -3,14 +3,15 @@
 @import './config';
 @import './menu';
 @import './variables';
+@import './responsive';
 
 // 
 * { margin: 0; padding: 0; box-sizing: border-box;}
 
 // body container
 body {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 229.5px;
+    padding-right: 229.5px;
     padding-top: 3rem;
 }
 
@@ -19,12 +20,23 @@ body {
     display: flex;
     justify-content: flex-start;
     margin-top: 1.5rem;
-    column-gap: 1.2rem;
-    visibility: hidden;
+    
+    // visibility: hidden;
 }
 
 // section-second-container
 #section-second-container {
     display: flex;
     position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 5.8rem;
+}
+
+
+
+
+main.main_container {
+    // border: 1px solid red;
 }
